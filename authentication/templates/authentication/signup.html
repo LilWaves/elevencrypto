@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+  <title>ElevenCrypto | Signup</title>
+{% endblock %}
+{% block body %}
+  <div class="container text-center">
+    <div class="signup-container">
+      <h1>Signup</h1>
+      <form class="login-form" method="post">
+        {% csrf_token %}
+        <p>{{ form.username }}</p>
+        <p>{{ form.email }}</p>
+        <p>{{ form.first_name }}</p>
+        <p>{{ form.last_name }}</p>
+        <p>{{ form.password1 }}</p>
+        <p>{{ form.password2 }}</p>
+        <!--<p>{{ form.captcha }}</p>-->
+        <button class="btn btn-default signup-button" type="submit"><i id="signup-icon" class="fa fa-chevron-circle-up" aria-hidden="true"></i> Signup</button>
+      </form>
+    </div>
+  </div>
+{% endblock %}

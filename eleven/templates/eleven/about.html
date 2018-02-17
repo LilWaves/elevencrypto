@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block head %}
+  <title>ElevenCrypto | About Us</title>
+{% endblock %}
+{% block body %}
+{% load static %}
+<div class="container text-center about-container">
+    <h1>About Us</h1>
+    <p class="text-center about-text">
+      Eleven was founded in 2016 by crypto-enthusiast. That hobby has turned into
+      the largest cloud mining service in the Midwest. We offer our clients the
+      exciting experience of mining digital-currencies without the hassle. Our
+      ambitious team is dedicated to bringing our customers the highest level of
+      satisfaction. We all love and believe in this amazing technology, and we
+      are here to help you become a part of it!
+    </p>
+    <img class="img-responsive team-img" src="{% static 'eleven/home-img/bg-3.png' %}">
+    <div class="row profile">
+      <div class="col-sm-4">
+        <div class="parallax-window profile-icon" data-parallax="scroll" data-image-src="{% static 'eleven/home-img/profile-icon.png' %}">
+          <div class="hidden-profile">
+            <h3>Trey Hamilton</h3>
+            <h5>CEO ElevenCrypto / Co-founder</h5>
+            <br>
+            <p>Early Bitcoin investor / Miner</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="parallax-window profile-icon" data-parallax="scroll" data-image-src="{% static 'eleven/home-img/profile-icon.png' %}">
+          <div class="hidden-profile">
+            <h3>Chris Filardo</h3>
+            <h5>Co-founder ElevenCrypto</h5>
+            <br>
+            <p>Sales</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="parallax-window profile-icon" data-parallax="scroll" data-image-src="{% static 'eleven/home-img/profile-icon.png' %}">
+          <div class="hidden-profile">
+            <h3>Zach Amrein</h3>
+            <h5>CTO ElevenCrypto</h5>
+            <br>
+            <p>ElevenCrypto Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,180 @@
+{% extends 'base.html' %}
+
+{% block head %}
+  <title>ElevenCrypto</title>
+{% endblock %}
+{% block body %}
+{% load static %}
+<!-- IMAGE SLIDER -->
+  <div id="imageSlider" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <!-- IMAGE 1 -->
+      <div class="item active">
+        <div class="parallax-window info-image" data-parallax="scroll" data-iosFix="true" data-image-src="{% static 'eleven/home-img/mountains.png' %}"></div>
+        <div class="carousel-caption">
+          <h3>Join the largest cloud mining service in the world</h3>
+          <h1 class="text-uppercase big">Start Mining Today!</h1>
+          <hr width="50%" />
+          <br>
+          <button type="button" class="btn btn-default top-btn">Start Mining</button>
+          <button type="button" class="btn btn-default">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END IMAGE SLIDER -->
+
+<!-- SECTION 1 -->
+  <div class="container-fluid text-center section1">
+    <div class="top-section">
+      <img class="icon4" src="{% static 'eleven/home-img/icons/icon4.png' %}" alt="">
+      <h2>Welcome to the largest cloud mining service in the Midwest</h2>
+      <h4>We are currently only filling Ethereum (ETH) contracts. More coins coming soon!</h4>
+      <hr width="50%" />
+      <h1>Get your first 100 MH/s Here!</h1>
+    </div>
+    <div class="ether-container">
+        <div class="ether-plan">
+          <h2 class="bold">Small Plan</h2>
+          <p class="text-center">Starter</p>
+          <h1 class="bold price">$30.00</h1>
+          <hr>
+          <h3>5 MH/s</h3>
+          <hr>
+          <p class="text-center">1 Year Ethereum Mining*</p>
+          <p class="text-center">No Maintenance Cost</p>
+          <button type="button" class="btn btn-default active-btn">Create Small Plan</button><br>
+          <button type="button" class="btn btn-default btn-black">Plan Details</button>
+        </div>
+        <div class="ether-plan">
+          <h2 class="bold">Medium Plan</h2>
+          <p class="text-center">Best Buy</p>
+          <h1 class="bold price">$869.00</h1>
+          <hr>
+          <h3>40 MH/s</h3>
+          <hr>
+          <p class="text-center">1 Year Ethereum Mining*</p>
+          <p class="text-center">No Maintenance Cost</p>
+          <button type="button" class="btn btn-default active-btn">Create Medium Plan</button><br>
+          <button type="button" class="btn btn-default btn-black">Plan Details</button>
+        </div>
+        <div class="ether-plan">
+          <h2 class="bold">Large Plan</h2>
+          <p class="text-center">Max Profit</p>
+          <h1 class="bold price">$2999.00</h1>
+          <hr>
+          <h3>100 MH/s</h3>
+          <hr>
+          <p class="text-center">1 Year Ethereum Mining*</p>
+          <p class="text-center">No Maintenance Cost</p>
+          <button type="button" class="btn btn-default active-btn">Create Large Plan</button><br>
+          <button type="button" class="btn btn-default btn-black">Plan Details</button>
+        </div>
+        <div class="ether-plan">
+          <h2 class="bold">Custom Plan</h2>
+          <p class="text-center">Create a custom mining plan</p>
+          <h1 class="bold price">$0.00</h1>
+          <hr>
+          <h3>0 MH/s</h3>
+          <hr>
+          <p class="text-center">Your Own Custom Plan*</p>
+          <p class="text-center">No Maintenance Cost</p>
+          <button type="button" class="btn btn-default active-btn">Create Custom Plan</button><br>
+          <button type="button" class="btn btn-default btn-black">Plan Details</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END SECTION 1 -->
+
+<!-- SECTION 2 -->
+<div class="container-fluid text-center section2">
+  <div class="parallax-window" data-parallax="scroll" data-image-src="{% static 'eleven/home-img/bg-1.png' %}">
+    <div class="row info-image-pad">
+      <div class="col-lg-6">
+        <img src="{% static 'eleven/home-img/icons/icon6.png' %}" alt="">
+        <h1 class="text-uppercase">Why Choose Us?</h1>
+        <p class="text-center">
+           We are an American based cloud mining service.
+           Eleven offers you a new safe and savvy way to invest your money in
+           digital-currencies. Our team is uniquely comprised of crypto-experts
+           who have combined years of experience in every aspect of this industry.
+           We started this company after realizing the value of the technology
+           surrounding the blockchain; and how difficult and costly it was for an
+           average user to buy, build, code, and house a crypto-miner. We believe
+           that every person should have the opportunity to mine regardless of their
+           knowledge and resources. That is why we provide a transparent service to help
+           grow this amazing community. Our goal is to bring the power of mining to you!
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <img src="{% static 'eleven/home-img/icons/icon1.png' %}" alt="">
+        <h1 class="text-uppercase">Competitive Pricing</h1>
+        <p class="text-center">
+           If you’ve done research on crypto-mining then you understand that
+           hardware prices are surging and there is currently a shortage of
+           mining equipment. We offer the best hashing power to hardware and
+           electricity cost around. The resources and partnerships Eleven
+           has created over the years are phenomenal and give us the ability
+           to offer these prices. When you sign a contract with Eleven you are
+           purchasing more than just hashing power, you are also purchasing the
+           access of our resources, network and crypto-expertise.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END SECTION 2 -->
+
+<!-- SECTION 3 -->
+<div class="container-fluid text-center section3 padding-eleven">
+  <h1>The Eleven Mining Experience</h1>
+  <div class="row">
+    <div class="col-lg-6">
+      <h4 class="padding-h4">
+          The sense of empowerment and innovation mining gives us is what drives
+          our company to do this, and our goal is to share this feeling with our
+          customers as well. This experience will be transparent, and you will be
+          included in every decision-making step of the way.
+      </h4>
+    </div>
+    <div class="col-lg-6">
+      <h4 class="padding-h4">
+          Mining is the creation of crypto-currency. Once you decide to sign with
+          Eleven you are officially a crypto-miner; you are now at the forefront of
+          crypto-creation. We eliminate the stress of:
+      </h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 eleven-icon-padding">
+      <img src="{% static 'eleven/home-img/icons/icon5.png' %}">
+      <h4>Mining Equiptment Shortages</h4>
+    </div>
+    <div class="col-sm-4 eleven-icon-padding">
+      <img src="{% static 'eleven/home-img/icons/icon13.png' %}">
+      <h4>Constant Maintenance</h4>
+    </div>
+    <div class="col-sm-4 eleven-icon-padding">
+      <img src="{% static 'eleven/home-img/icons/icon8.png' %}">
+      <h4>A Persistent, Obnoxious Humming Noise</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 eleven-icon-padding">
+      <img src="{% static 'eleven/home-img/icons/icon10.png' %}">
+      <h4>Heat Generated From Mining Servers</h4>
+    </div>
+    <div class="col-sm-4 eleven-icon-padding">
+      <img src="{% static 'eleven/home-img/icons/icon11.png' %}">
+      <h4>Cost Prohibitive Electricity Accommodations</h4>
+    </div>
+    <div class="col-sm-4 eleven-icon-padding">
+      <img src="{% static 'eleven/home-img/icons/icon12.png' %}">
+      <h4>Storage</h4>
+    </div>
+  </div>
+</div>
+<!-- END SECTION 3 -->
+{% endblock %}
